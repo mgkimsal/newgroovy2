@@ -18,7 +18,7 @@ class demo {
 def d = new demo()
 bench(d, "fib_dynamic", 30, "Full dynamic ")
 bench(d, "fib_integer", 30, "Groovy w/ explicit types")
-bench(d, "fib", 40, "Explicit type w/@CompileStatic")
+bench(d, "fib", 30, "Explicit type w/@CompileStatic")
 
 def bench(clazz, method, val, name){
 	def a=  System.currentTimeMillis()
